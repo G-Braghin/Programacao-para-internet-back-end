@@ -1,0 +1,10 @@
+
+USE dbcaduser;
+
+CREATE TABLE usuarios (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(150) NOT NULL,
+  email VARCHAR(250) NOT NULL,
+  senha VARCHAR(150) NOT NULL,
+  PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;

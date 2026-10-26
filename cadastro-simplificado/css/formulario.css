@@ -1,0 +1,54 @@
+
+body{
+    background-color: gray;
+}
+
+.cabecalho-titulo{
+    max-width: 880px;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.titulo{
+    color: black;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.labels:first-child{
+    margin-top: 20px;
+}
+
+.inputs {
+    margin-bottom: 10px;
+    padding: 10px 10px 5px 10px;
+    font-size: 15px;
+    border: none;
+    border-bottom: solid 3px black;
+}
+
+.botao-submit{
+    padding: 10px 20px;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+.botao-submit:hover{
+    background-color: rgb(50, 49, 46);
+    color: white;
+}
